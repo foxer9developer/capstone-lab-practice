@@ -1,10 +1,10 @@
 
-def subt(a,b):
+def sub():
 	print("Subtract pressed")
 	a= int(input())
 	b= int(input())
 	if a>b:
-		return a-b
+		print(a-b)
 	else:
-		return b-a
+		print(b-a)
 
